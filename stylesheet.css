@@ -1,0 +1,56 @@
+body {
+    background: #f8f8ff;
+    margin: auto;
+    max-width: 960px;
+  }
+  h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 36px;
+    color: #003087;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+  .form-control {
+    font-size: 18px;
+  }
+  #calculator {
+    font-size: 20px;
+    font-weight: 600;
+    color: #003087;
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+    max-width: 960px;
+  }
+  #finalCost {
+    font-size: 28px;
+    font-family: "Archivo", sans-serif;
+    color: #003087;
+  }
+  .owed {
+    color: #0072ce;
+    font-family: "Open Sans", sans-serif;
+  }
+  ::placeholder {
+    color: #004c91;
+    font-family: "Open Sans", sans-serif;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+    transition: width 0.4s ease-in-out;
+    width: 50%;
+  }
+  input[type="number"]:focus {
+    width: 80%;
+  }
+  .float-child {
+    width: 48%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  
